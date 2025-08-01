@@ -1,0 +1,882 @@
+[
+    {
+        "name": "นางสาวศุภพิชญ์ มากแก้ว(พี่หนึ่ง)",
+        "email": "supapich.ma@gmail.com",
+        "phone": "",
+        "position": "หัวหน้าสำนักงานกลาง",
+        "internal": "1201",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวเพ็ญพร มากจงดี(พี่จุ๊บจิ๊บ)",
+        "email": "penporn.m@psu.ac.th",
+        "phone": "",
+        "position": "เลขาผู้อำนวยการ",
+        "internal": "1102",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นายฉัตรชัย แสงนพรัตน์",
+        "email": "นายฉัตรชัย แสงนพรัตน์",
+        "phone": "",
+        "position": "งานสา่รบัญ",
+        "internal": "1231",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางชลธิชา รังษี",
+        "email": "cholticha.r@psu.ac.th",
+        "phone": "",
+        "position": "หัวหน้าสำนักงานกลาง",
+        "internal": "",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวฤทัยรัตน์ สุขศรีสังข์",
+        "email": "ruetairat.s@psu.ac.th",
+        "phone": "",
+        "position": "การเงิน",
+        "internal": "1251",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวพิมพ์ชนก ทองน้อย",
+        "email": " pimchanok.thg@gmail.com",
+        "phone": "",
+        "position": "การเงิน",
+        "internal": "1251",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวสุรัลชนา ศรชัย(พี่ฟ้า)",
+        "email": "suranchana.o@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บุคคล",
+        "internal": "",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวนิจจรีย์ สุวรรณชาตรี(พี่เกด)",
+        "email": "pannipa@company.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บุคคล",
+        "internal": "",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวสิริมา ศรีสุข(พี่จอย)",
+        "email": "sirima.sr@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่พัสดุ",
+        "internal": "1241",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวอังคณา หมัดตะทวี",
+        "email": "angkana.m@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่พัสดุ",
+        "internal": "1241",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางจิดาภา เจี้ยงยี่",
+        "email": "natthaporn.c@psu.ac.th",
+        "phone": "",
+        "position": "แม่บ้าน",
+        "internal": "",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางศรเงิน สุวรรณจิตต์",
+        "email": "sornngern.s@psu.ac.th",
+        "phone": "",
+        "position": "แม่บ้าน",
+        "internal": "",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาวศุภกร กลมกล่อม",
+        "email": "supakorn.k@psu.ac.th",
+        "phone": "",
+        "position": "ผู้ช่วยผู้บริหาร (ผู้อำนวยการ)",
+        "internal": "",
+        "department": "สำนักงานกลาง"
+    },
+    {
+        "name": "นางสาว นุชนาฏ มณีโชติ",
+        "email": "nutchanat.m@psu.ac.th",
+        "phone": "",
+        "position": "นักวิชาการคอมพิวเตอร์",
+        "internal": "1530",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "ดร.อมลพัชร ยาคอบเซ่น",
+        "email": "amonpat.13@gmail.com",
+        "phone": "",
+        "position": "หัวหน้าฝ่ายยุทธศาสตร์และแผน",
+        "internal": "",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นายอธิราชย์ เริงณรงค์",
+        "email": "athirat.rerng@gmail.com",
+        "phone": "",
+        "position": "นักส่งเสริมและพัฒนานวัตกรรม",
+        "internal": "",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นางสาวปิยธิดา สุริยะไพบูลย์วัฒนา",
+        "email": "piyathida.suriya@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประสานงานโครงการ",
+        "internal": "1301",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นางสาวโฉมเฉลา พจนไกร",
+        "email": "chomchalao.ph@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่ยุทธศาสตร์และแผน",
+        "internal": "1301",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นายอธิป หลงสมัน",
+        "email": "athip.l@psu.ac.th",
+        "phone": "",
+        "position": "นักวิชาการคอมพิวเตอร์",
+        "internal": "1350",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นางสาวนาถกานต์ ขุนจันทร์",
+        "email": "Narttakarn.k@psu.ac.th",
+        "phone": "",
+        "position": "นักวิเคราะห์นโยบายและแผน",
+        "internal": "",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นางสาวชาริญภัค ทองสมสี",
+        "email": "charinyapak.t@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ยุทธศาสตร์และแผน",
+        "internal": "",
+        "department": "ฝ่ายยุทธศาสตร์และแผน"
+    },
+    {
+        "name": "นางสาววิลาสินี บัวหนู",
+        "email": "wilasinee.bu@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่พัฒนาชุมชนสัมพันธ์",
+        "internal": "",
+        "department": "ฝ่ายประชาสัมพันธ์และสื่อสารองค์กร"
+    },
+    {
+        "name": "นางสาวกัญญาภัค อนุราช",
+        "email": "kanyapak.a@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประชาสัมพันธ์ และสื่อสารองค์กร",
+        "internal": "",
+        "department": "ฝ่ายประชาสัมพันธ์และสื่อสารองค์กร"
+    },
+    {
+        "name": "นายกฤษฎา พิทักษ์",
+        "email": "kritsadapithak@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประชาสัมพันธ์ และสื่อสารองค์กร",
+        "internal": "",
+        "department": "ฝ่ายประชาสัมพันธ์และสื่อสารองค์กร"
+    },
+    {
+        "name": "ว่าที่ร้อยตรีเดชวิน แก้วศรีวงศกร",
+        "email": "detchawin.psubic@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประชาสัมพันธ์ และสื่อสารองค์กร",
+        "internal": "",
+        "department": "ฝ่ายประชาสัมพันธ์และสื่อสารองค์กร"
+    },
+    {
+        "name": "ผู้ช่วยศาสตราจารย์ ดร.ประวัติ เวทย์ประสิทธิ์",
+        "email": "dwettayaprasit@gmail.com",
+        "phone": "",
+        "position": "ที่ปรึกษาต่างประเทศ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นายอธิพล อินสว่าง",
+        "email": "atipol1000@gmail.com",
+        "phone": "",
+        "position": "ที่ปรึกษา ด้านการเงินและการลงทุน",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางพรรณทิวา แก้ววิชิต",
+        "email": "pantiwa.r@psu.ac.th",
+        "phone": "",
+        "position": "ผู้จัดการศูนย์บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางนิภาพร จอนเจือ",
+        "email": "nipaporn.b@psu.ac.th",
+        "phone": "",
+        "position": "หัวหน้าสำนักงาน (การเงินและบัญชี) / หัวหน้างานพัสดุ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวณัฐฌา ชาติวัฒนา",
+        "email": "nutcha.p@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวพิมพ์มาดา ธีระลีลา",
+        "email": "pimmada.t@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวชญานี นะแส",
+        "email": "chayanee.p@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวเฉลิมขวัญ บุญคงทอง",
+        "email": "chalermkwan.b@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวเรวดี เพชรเมือง",
+        "email": "rawadee.pe@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประสานงานโครงการ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นายภัทรวุฒิ อินทุเศรษฐ",
+        "email": "phattharawut.i@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวณัฐิดา โชติกุล",
+        "email": "natida.c@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่โครงการบัณฑิตชุมชนอาสา",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "ผู้ช่วยศาสตราจารย์ ดร.ประวัติ เวทย์ประสิทธิ์",
+        "email": "dwettayaprasit@gmail.com",
+        "phone": "",
+        "position": "ที่ปรึกษาต่างประเทศ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นายอธิพล อินสว่าง",
+        "email": "atipol1000@gmail.com",
+        "phone": "",
+        "position": "ที่ปรึกษา ด้านการเงินและการลงทุน",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางพรรณทิวา แก้ววิชิต",
+        "email": "pantiwa.r@psu.ac.th",
+        "phone": "",
+        "position": "ผู้จัดการศูนย์บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางนิภาพร จอนเจือ",
+        "email": "nipaporn.b@psu.ac.th",
+        "phone": "",
+        "position": "หัวหน้าสำนักงาน (การเงินและบัญชี) / หัวหน้างานพัสดุ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวณัฐฌา ชาติวัฒนา",
+        "email": "nutcha.p@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวพิมพ์มาดา ธีระลีลา",
+        "email": "pimmada.t@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวชญานี นะแส",
+        "email": "chayanee.p@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวเฉลิมขวัญ บุญคงทอง",
+        "email": "chalermkwan.b@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวเรวดี เพชรเมือง",
+        "email": "rawadee.pe@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประสานงานโครงการ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นายภัทรวุฒิ อินทุเศรษฐ",
+        "email": "phattharawut.i@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะวิสาหกิจ",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นางสาวณัฐิดา โชติกุล",
+        "email": "natida.c@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่โครงการบัณฑิตชุมชนอาสา",
+        "internal": "",
+        "department": "ศูนย์บ่มเพาะวิสาหกิจ"
+    },
+    {
+        "name": "นายจิตติยุทธ เยี่ยมยกกุล",
+        "email": "jittiyut.y@gmail.com",
+        "phone": "",
+        "position": "ผู้จัดการศูนย์ทรัพย์สินทางปัญญา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นายธิปไตย ศรีนวลขาว",
+        "email": "tippatai.s@gmail.com",
+        "phone": "",
+        "position": "นักทรัพย์สินทางปัญญา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวเพชรดา สัตยากูล",
+        "email": "phetrada.sk@gmail.com",
+        "phone": "",
+        "position": "นักทรัพย์สินทางปัญญา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวขวัญชนก เจียรธาราทิพย์",
+        "email": "kwanchanok.kw@psu.ac.th",
+        "phone": "",
+        "position": "นักทรัพย์สินทางปัญญา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวณภัค พันธุ์ช่างทอง",
+        "email": "napak.jp@gmail.com",
+        "phone": "",
+        "position": "นักทรัพย์สินทางปัญญา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวเสาวรส บุญทา",
+        "email": "sawrarod49@gmail.com",
+        "phone": "",
+        "position": "นักบริหารทรัพย์สินทางปัญญา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นายวีระยุทธ ศรีเพ็ญ",
+        "email": "weerayut.sr@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารโครงการ",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวนิศาชล พุมดวง",
+        "email": "nisachon.pu@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวธฤทัย ชูหนู มากเจริญกูล",
+        "email": "tharuethaichunoo.m@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวฐาปนีย์ สังข์ศิริ",
+        "email": "thapanee.s@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวอารีรัตน์ บุญรัตน์",
+        "email": "areerat.b@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประสานงานโครงการ",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวรสสุคนธ์ วงศ์ศรีสกุลแก้ว",
+        "email": "sujinthara.s@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประสานงานโครงการ",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวตรีรัตน์ กังฮา",
+        "email": "treerat.k@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่ประสานงานโครงการ",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวศุจินธรา แซ่ขอ",
+        "email": "sujinthara.sa@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวกนกพร อาคาสุวรรณ",
+        "email": "dan.kanokporn@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวเมธาวี คงไชย",
+        "email": "nook.metarvee@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่โครงการบัณฑิตชุมชนอาสา",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวสุพิชฌาย์ ธรรมจินโน",
+        "email": "Sangsom.supitcha@gmail.com",
+        "phone": "",
+        "position": "นักส่งเสริมและพัฒนานวัตกรรม",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวศตพร กาละ",
+        "email": "supakorn.k@psu.ac.th",
+        "phone": "",
+        "position": "นักส่งเสริมและพัฒนานวัตกรรม",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวปัทมาภรณ์ จันทการักษ์",
+        "email": "",
+        "phone": "",
+        "position": "เจ้าหน้าที่โครงการ (บัณฑิตชุมชนอาสา)",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวภูวรา หนูพุ่ม",
+        "email": "phuwara.np@gmail.com",
+        "phone": "",
+        "position": "นักส่งเสริมและพัฒนานวัตกรรม",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวปทุมวดี แก้วอิทริทร์",
+        "email": "pathumwadee8961@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่โครงการ",
+        "internal": "",
+        "department": "ศูนย์ทรัพย์สินทางปัญญา"
+    },
+    {
+        "name": "นางสาวพรพรรณ ด้วงทอง",
+        "email": "pornphun.d58@gmail.com",
+        "phone": "",
+        "position": "ผู้ช่วยผู้จัดการ (ฝ่าย STI)",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวพจนีย์ จันทร์ศิริ",
+        "email": "potjanee.jun@gmail.com",
+        "phone": "",
+        "position": "หัวหน้าแผนกบริการและบริหารความสัมพันธ์ลูกค้า",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายนิธิคุณ รัตนีทู",
+        "email": "nithikun.r@psu.ac.th",
+        "phone": "",
+        "position": "หัวหน้าแผนกวิศวกรรม",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวพัชราวดี ศรประสิทธิ์",
+        "email": "P.aomm2891@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริการและบริหารความสัมพันธ์ลูกค้า",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวกนกวรรณ คงเอื้อ",
+        "email": "kanokwanpsu18.ko@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวปิลันธนา สิทธิพันธ์",
+        "email": "pilantana.s@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริการและบริหารความสัมพันธ์ลูกค้า",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายจาตุรันต์ แก้วปฐมวัน",
+        "email": "Jatuwan2534@gmail.com",
+        "phone": "",
+        "position": "ช่างเทคนิค (เครื่องกล)",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายสุขรัฐจิต มงคลศิริเจริญ",
+        "email": "sukrattajit.m@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่งานระบบคอมพิวเตอร์และเครือข่าย",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายคฑาวุธ ทองวงศ์",
+        "email": "kathawut.t@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่งานระบบคอมพิวเตอร์และเครือข่าย",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวปิโยรส บุณยรัตน์",
+        "email": "piyorot.b@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่อาชีวอนามัยและความปลอดภัย",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวศิรดา เถาว์มูล",
+        "email": "siradaa.th@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริการและบริหารความสัมพันธ์ลูกค้า",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาววรินยา อรุณทอง",
+        "email": "warinya.a@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป (พื้นที่นิทรรศการ)",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวพิชญานัน ศรีสุวรรณ",
+        "email": "pichayanan.s@psu.ac.th",
+        "phone": "",
+        "position": "นักวิทยาศาสตร์",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายเจนวิทย์ บุญนนท์",
+        "email": "janewitboonnon@gmail.com",
+        "phone": "",
+        "position": "ช่างเทคนิค (เครื่องกล)",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวกุลธิดา ยงสุวรรณกุล",
+        "email": "kulthida.y@psu.ac.th",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายอนุวัฒน์ ช่วยราย",
+        "email": "anuwat33.a@gmail.com",
+        "phone": "",
+        "position": "ช่างเทคนิค",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวภัทรภร ศรีมณี",
+        "email": "Pattaraporn.sr@psu.ac.th",
+        "phone": "",
+        "position": "นักวิทยาศาสตร์",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นายเรืองนาม รังษีโกศัย",
+        "email": "ruangnam.rungsrikosai@gmail.com",
+        "phone": "",
+        "position": "นักวิทยาศาสตร์",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางศุภลักษณ์ ทองสม",
+        "email": "",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริการและบริหารความสัมพันธ์ลูกค้า",
+        "internal": "",
+        "department": "ฝ่ายโครงสร้างพื้นฐานด้านวิทยาศาสตร์ เทคโนโลยีและนวัตกรรม"
+    },
+    {
+        "name": "นางสาวหทัยทิพย์ บุตรมณี",
+        "email": "hathaithip.b@hotmail.com",
+        "phone": "",
+        "position": "หัวหน้าสำนักงานความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นายพิชนันท์ เรืองแสงวัฒนา",
+        "email": "pichanun.r@psu.ac.th",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นายยุทธภูมิ เพชรสิทธิ์",
+        "email": "yuttapoom.ph@hotmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นายวิฑูรย์ ศิรศานติพงศ์",
+        "email": "switoon@hotmail.co.th",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวปอชญา ชุมสุวรรณ",
+        "email": "porchaya.ch@gmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวศิริรัตน์ กวยระคาร",
+        "email": "miw_ebiz@hotmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวอโนทัย ชูสุวรรณ",
+        "email": "anothai.app@gmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวนูรซากีน๊ะ หมัดแล๊ะ",
+        "email": "16snowyzaza@gmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นายนัฐพงษ์ โคตรพรม",
+        "email": "nattapong.kothprom@gmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวกุลจิรา ทองบุญ",
+        "email": "kwang.kunchira@gmail.com",
+        "phone": "",
+        "position": "นักวิเคราะห์ความร่วมมืออุตสาหกรรม",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวสาสนีย์ กลิ่นพิกุล",
+        "email": "klinpikul.s@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวธิดารัตน์ เต็มวิริยะกุล",
+        "email": "thing.thidarat@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวณัฏฐ์ธยาน์นา มากเนียม",
+        "email": "jantima.63540@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่ธุรการ",
+        "internal": "",
+        "department": "สำนักงานความร่วมมืออุตสาหกรรม"
+    },
+    {
+        "name": "นางสาวสุชัญญา จารุทัศนัย",
+        "email": "suchanyaa.j@gmail.com",
+        "phone": "",
+        "position": "ผู้จัดการ",
+        "internal": "",
+        "department": "สถานพัฒนาการเป็นผู้ประกอบการนักศึกษา"
+    },
+    {
+        "name": "นางสาวอรวรรณ บุณยศักดิ์",
+        "email": "orawan.bys@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะผู้ประกอบการนักศึกษา",
+        "internal": "",
+        "department": "สถานพัฒนาการเป็นผู้ประกอบการนักศึกษา"
+    },
+    {
+        "name": "นางสาวลักขณา วิยาสิงห์",
+        "email": "lakkana.wi@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะผู้ประกอบการนักศึกษา",
+        "internal": "",
+        "department": "สถานพัฒนาการเป็นผู้ประกอบการนักศึกษา"
+    },
+    {
+        "name": "นางสาวฐิติรัตน์ หอจตุรพิธพร",
+        "email": "titirat.kun@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะผู้ประกอบการนักศึกษา",
+        "internal": "",
+        "department": "สถานพัฒนาการเป็นผู้ประกอบการนักศึกษา"
+    },
+    {
+        "name": "นางสาวณัฐพัชร แสนดีจิรภาคย์",
+        "email": "nuttapatploy2539@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บ่มเพาะผู้ประกอบการนักศึกษา",
+        "internal": "",
+        "department": "สถานพัฒนาการเป็นผู้ประกอบการนักศึกษา"
+    },
+    {
+        "name": "นางยิ่งลักษณ์ ศรีนวลขาว",
+        "email": "yingluk.d@gmail.com",
+        "phone": "",
+        "position": "ผู้จัดการศูนย์นวัตกรรมการออกแบบ",
+        "internal": "",
+        "department": "ศูนย์นวัตกรรมการออกแบบ"
+    },
+    {
+        "name": "นางสาวธัญรัตน์ เส้งเล่ง",
+        "email": "tunyarut.stsp@gmail.com",
+        "phone": "",
+        "position": "เจ้าหน้าที่บริหารงานทั่วไป",
+        "internal": "",
+        "department": "ศูนย์นวัตกรรมการออกแบบ"
+    },
+    {
+        "name": "นางสาวสุภาพร ช่อเรืองศักดิ์",
+        "email": "supaporn.chorr@gmail.com",
+        "phone": "",
+        "position": "นักออกแบบ",
+        "internal": "",
+        "department": "ศูนย์นวัตกรรมการออกแบบ"
+    },
+    {
+        "name": "นางสาวต่วนสาปีหนะ รายอเงาะ",
+        "email": "tuansapina2018@gmail.com",
+        "phone": "",
+        "position": "นักออกแบบ",
+        "internal": "",
+        "department": "ศูนย์นวัตกรรมการออกแบบ"
+    },
+    {
+        "name": "นางสาวหุสนา จาเอาะ",
+        "email": "",
+        "phone": "",
+        "position": "นักออกแบบ",
+        "internal": "",
+        "department": "ศูนย์นวัตกรรมการออกแบบ"
+    }
+]

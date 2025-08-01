@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ระบบจัดการข้อมูลติดต่อบุคลากร</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <div class="password-overlay" id="passwordOverlay">
+  <div class="password-modal">
+    <h2>🔐 เข้าถึงระบบ</h2>
+    <p>กรุณาใส่รหัสผ่านเพื่อเข้าถึงข้อมูล</p>
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="ใส่รหัสผ่าน"
+      onkeydown="if(event.key==='Enter') checkPassword()"
+    />
+    <button onclick="checkPassword()">เข้าสู่ระบบ</button>
+    <p id="passwordError" class="error-message"></p>
+  </div>
+</div>
+
+  <h1>📧 ระบบจัดการข้อมูลติดต่อบุคลากร</h1>
+
+  <div class="filters">
+    <div class="filter-group">
+      <label>🔍 ค้นหา</label>
+      <input type="text" id="searchInput" placeholder="ค้นหาชื่อ, อีเมล, เบอร์โทร..." />
+    </div>
+    <div class="filter-group">
+      <label>🏢 กรองตามฝ่าย</label>
+      <select id="departmentFilter">
+        <option value="">ทุกฝ่าย</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>📂 เลือกแผนก</label>
+      <select id="quickDeptDropdown" onchange="selectEntireDepartment(this.value)">
+        <option value="">เลือกแผนก...</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>⚡ การดำเนินการ</label>
+      <button class="btn btn-secondary" onclick="clearAllSelections()">ล้างการเลือก</button>
+    </div>
+    <div class="filter-group">
+      <label>✉️ ส่งอีเมลหาทั้งแผนก</label>
+      <button class="btn btn-primary" onclick="emailEntireDepartment()">🚀 ส่งอีเมลทั้งหมด</button>
+    </div>
+  </div>
+
+  <div class="email-builder">
+    <h3>📬 เครื่องมือสร้างอีเมล</h3>
+    <div class="selected-contacts" id="selectedContacts">
+      <div style="color: rgba(255, 255, 255, 0.7); font-style: italic">
+        คลิกเลือกรายชื่อที่ต้องการส่งอีเมล...
+      </div>
+    </div>
+    <div class="email-actions">
+      <button class="btn btn-primary" onclick="copyEmailList('to')">📧 Copy รายชื่อ TO</button>
+      <button class="btn btn-secondary" onclick="copyEmailList('cc')">📋 Copy รายชื่อ CC</button>
+      <button class="btn btn-secondary" onclick="openEmailClient()">🚀 เปิดอีเมล</button>
+    </div>
+  </div>
+
+  <div class="departments" id="departmentsContainer"></div>
+  <div class="notification" id="notification"></div>
+
+  <script>
+    let contactsData = [];
+    let selectedContacts = [];
+    let filteredContacts = contactsData;
+
+    async function loadContacts() {
+      try {
+        const res = await fetch("contacts.json");
+        contactsData = await res.json();
+        filteredContacts = contactsData;
+        init();
+      } catch (err) {
+        console.error("โหลด contacts.json ไม่สำเร็จ:", err);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", loadContacts);
+
+    function init() {
+      loadDepartmentFilter();
+      populateQuickDropdown();
+      renderContacts();
+      setupEventListeners();
+    }
+
+    function loadDepartmentFilter() {
+      const departments = [...new Set(contactsData.map((contact) => contact.department))];
+      const filter = document.getElementById("departmentFilter");
+      departments.forEach((dept) => {
+        const option = document.createElement("option");
+        option.value = dept;
+        option.textContent = dept;
+        filter.appendChild(option);
+      });
+    }
+
+    function populateQuickDropdown() {
+      const deptSelect = document.getElementById("quickDeptDropdown");
+      const departments = [...new Set(contactsData.map(c => c.department))];
+      departments.forEach((dept) => {
+        const option = document.createElement("option");
+        option.value = dept;
+        option.textContent = dept;
+        deptSelect.appendChild(option);
+      });
+    }
+
+    function setupEventListeners() {
+      document.getElementById("searchInput").addEventListener("input", filterContacts);
+      document.getElementById("departmentFilter").addEventListener("change", filterContacts);
+    }
+
+    function filterContacts() {
+      const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+      const selectedDept = document.getElementById("departmentFilter").value;
+
+      filteredContacts = contactsData.filter((contact) => {
+        const matchesSearch =
+          !searchTerm ||
+          contact.name.toLowerCase().includes(searchTerm) ||
+          contact.email.toLowerCase().includes(searchTerm) ||
+          contact.phone.includes(searchTerm) ||
+          contact.position.includes(searchTerm) ||
+          contact.internal.includes(searchTerm);
+
+        const matchesDept = !selectedDept || contact.department === selectedDept;
+
+        return matchesSearch && matchesDept;
+      });
+
+      renderContacts();
+    }
+
+    function renderContacts() {
+      const container = document.getElementById("departmentsContainer");
+      const departments = {};
+
+      filteredContacts.forEach((contact) => {
+        if (!departments[contact.department]) {
+          departments[contact.department] = [];
+        }
+        departments[contact.department].push(contact);
+      });
+
+      container.innerHTML = "";
+      Object.keys(departments).forEach((deptName) => {
+        const deptDiv = document.createElement("div");
+        deptDiv.className = "department";
+
+        const contactsHtml = departments[deptName]
+          .map((contact) => {
+            const isSelected = selectedContacts.some((sc) => sc.email === contact.email);
+            return `
+              <div class="contact-item ${isSelected ? "selected" : ""}" onclick="toggleContact('${contact.email}')">
+                <div class="contact-header">
+                  <div class="contact-name">${highlightSearch(contact.name)}</div>
+                  <div class="contact-actions">
+                    <button class="action-btn copy-btn" onclick="event.stopPropagation(); copyEmail('${contact.email}')" title="Copy อีเมล">📋</button>
+                    <button class="action-btn select-btn" title="${isSelected ? "ยกเลิกการเลือก" : "เลือก"}">${isSelected ? "✓" : "+"}</button>
+                  </div>
+                </div>
+                <div class="contact-details">
+                  <div class="detail-item"><span class="icon">📧</span><span>${highlightSearch(contact.email)}</span></div>
+                  <div class="detail-item"><span class="icon">📞</span><span>${highlightSearch(contact.phone)}</span></div>
+                  <div class="detail-item"><span class="icon">😎</span><span>${highlightSearch(contact.position)}</span></div>
+                  <div class="detail-item"><span class="icon">☎️</span><span>ต่อใน ${highlightSearch(contact.internal)}</span></div>
+                  <div class="detail-item"><span class="icon">🏢</span><span>${contact.department}</span></div>
+                </div>
+              </div>`;
+          })
+          .join("");
+
+        deptDiv.innerHTML = `
+          <h3>${deptName}<span class="contact-count">${departments[deptName].length}</span></h3>
+          ${contactsHtml}`;
+
+        container.appendChild(deptDiv);
+      });
+    }
+
+    function highlightSearch(text) {
+      const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+      if (!searchTerm) return text;
+      const regex = new RegExp(`(${searchTerm})`, "gi");
+      return text.replace(regex, '<span class="search-highlight">$1</span>');
+    }
+
+    function toggleContact(email) {
+      const contact = contactsData.find((c) => c.email === email);
+      const existingIndex = selectedContacts.findIndex((sc) => sc.email === email);
+      if (existingIndex > -1) {
+        selectedContacts.splice(existingIndex, 1);
+      } else {
+        selectedContacts.push(contact);
+      }
+      updateSelectedContactsDisplay();
+      renderContacts();
+    }
+
+    function updateSelectedContactsDisplay() {
+      const container = document.getElementById("selectedContacts");
+      if (selectedContacts.length === 0) {
+        container.innerHTML = '<div style="color: rgba(255,255,255,0.7); font-style: italic;">คลิกเลือกรายชื่อที่ต้องการส่งอีเมล...</div>';
+        return;
+      }
+      const tagsHtml = selectedContacts.map(contact => `<div class="contact-tag"><span>${contact.name}</span><button class="remove" onclick="removeContact('${contact.email}')">×</button></div>`).join("");
+      container.innerHTML = tagsHtml;
+    }
+
+    function removeContact(email) {
+      selectedContacts = selectedContacts.filter((c) => c.email !== email);
+      updateSelectedContactsDisplay();
+      renderContacts();
+    }
+
+    function clearAllSelections() {
+      selectedContacts = [];
+      updateSelectedContactsDisplay();
+      renderContacts();
+    }
+
+    function copyEmail(email) {
+      navigator.clipboard.writeText(email).then(() => {
+        showNotification(`คัดลอกอีเมล: ${email}`);
+      });
+    }
+
+    function copyEmailList(type) {
+      if (selectedContacts.length === 0) {
+        showNotification("กรุณาเลือกรายชื่อก่อน", "error");
+        return;
+      }
+      const emails = selectedContacts.map((c) => c.email).join(";");
+      navigator.clipboard.writeText(emails).then(() => {
+        showNotification(`คัดลอกรายชื่อ ${type.toUpperCase()}: ${selectedContacts.length} คน`);
+      });
+    }
+
+    function openEmailClient() {
+      if (selectedContacts.length === 0) {
+        showNotification("กรุณาเลือกรายชื่อก่อน", "error");
+        return;
+      }
+      const emails = selectedContacts.map((c) => c.email).join(",");
+      const subject = "หัวข้อเรื่อง";
+      const body = "เรียน ท่านผู้รับ%0D%0A%0D%0A";
+      window.location.href = `mailto:${emails}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
+
+    function showNotification(message, type = "success") {
+      const notification = document.getElementById("notification");
+      notification.textContent = message;
+      notification.className = `notification ${type}`;
+      notification.classList.add("show");
+      setTimeout(() => {
+        notification.classList.remove("show");
+      }, 3000);
+    }
+
+    function selectEntireDepartment(deptName) {
+      if (!deptName) return;
+      const contactsInDept = contactsData.filter(c => c.department === deptName && c.email);
+      selectedContacts = [...contactsInDept];
+      updateSelectedContactsDisplay();
+      renderContacts();
+      showNotification(`เลือก ${contactsInDept.length} คน จากแผนก ${deptName}`);
+    }
+
+    function emailEntireDepartment() {
+      if (selectedContacts.length === 0) {
+        showNotification("กรุณาเลือกแผนกก่อน", "error");
+        return;
+      }
+      const emails = selectedContacts.map((c) => c.email).join(",");
+      const subject = "หัวข้อเรื่อง";
+      const body = "เรียน ท่านผู้รับ%0D%0A%0D%0A";
+      window.location.href = `mailto:${emails}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
+
+    function checkPassword() {
+  const correctPassword = "psucontact";
+  const input = document.getElementById("passwordInput").value;
+  const errorText = document.getElementById("passwordError");
+
+  if (input === correctPassword) {
+    document.getElementById("passwordOverlay").style.display = "none";
+  } else {
+    errorText.textContent = "รหัสผ่านไม่ถูกต้อง";
+  }
+}
+
+  </script>
+</body>
+
+</html>
